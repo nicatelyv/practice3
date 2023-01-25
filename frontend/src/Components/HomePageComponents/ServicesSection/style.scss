@@ -1,0 +1,20 @@
+.ServicesSection{
+    width: 100%;
+    min-height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    .servicesCard{
+        width: 60%;
+        min-height: 30vh;
+        border: 1px solid black;
+        display: flex;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 400;
+        color: cadetblue;
+    }
+}
